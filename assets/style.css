@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
 
 :root {
-	--primary-color: #f44336;
+	--primary-color: #287aea;
 	--dark: #333;
 	--cream: #fffdf3;
 }
@@ -46,6 +46,12 @@ a {
 
 a:hover {
 	color: var(--primary-color);
+}
+
+img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
 }
 
 /** MAIN **/
