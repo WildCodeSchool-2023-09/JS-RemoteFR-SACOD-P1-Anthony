@@ -257,3 +257,24 @@ footer a {
 footer a:hover {
 	color: var(--dark);
 }
+
+/** media queries **/
+
+@media screen and (max-width: 768px) {
+	nav {
+		flex-direction: column;
+		gap: 1rem;
+		align-items: center;
+	}
+
+	nav ul li {
+		align-items: baseline;
+		flex: 1;
+	}
+
+	form {
+		flex-direction: column;
+		gap: 1rem;
+		align-items: flex-start;
+	}
+}
