@@ -4,6 +4,7 @@
 :root {
 	--primary-color: #f44336;
 	--dark: #333;
+	--cream: #fffdf3;
 }
 
 * {
@@ -14,6 +15,7 @@
 
 body {
 	font-family: "Montserrat", sans-serif;
+	background-color: var(--cream);
 	color: var(--dark);
 }
 
@@ -64,7 +66,7 @@ label {
 form {
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 	padding-top: 20px;
 }
 
@@ -87,4 +89,64 @@ form button {
 	background-color: var(--primary-color);
 	color: #fff;
 	cursor: pointer;
+}
+
+/** Check List **/
+
+.check,
+.delete {
+	font-size: 1.2rem;
+	margin-left: 1rem;
+	padding: 10px;
+	background-color: transparent;
+	border: none;
+}
+
+.checked {
+	text-decoration: line-through;
+	text-decoration-thickness: 0.15em;
+
+	color: var(--primary-color);
+}
+
+/** section **/
+
+h2 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+section {
+	margin: 5rem 0;
+}
+
+/** container **/
+
+.container {
+	margin-top: 3rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.container span {
+	font-size: 1.2rem;
+}
+
+li {
+	list-style: none;
+	margin: 0.7rem;
+	padding: 0.5rem;
+}
+
+.wip {
+	display: flex;
+	justify-content: space-between;
+	background-color: #fff;
+	border: #333 1px solid;
+	border-radius: 5px;
+}
+
+.wip > span {
+	align-self: center;
+	padding-left: 1rem;
 }
