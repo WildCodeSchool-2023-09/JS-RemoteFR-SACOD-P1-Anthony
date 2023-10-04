@@ -1,11 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Todo list</title>
 		<link rel="stylesheet" href="./assets/style.css" />
 		<link rel="icon" href="./assets/img/favicon/favicon.ico" />
+		<meta name="description" content="Todo list" />
+		<meta name="keywords" content="Todo list" />
+		<meta name="author" content="Anthony Gorski" />
+		<meta name="robots" content="index, follow" />
+		<meta name="revisit-after" content="3 month" />
 	</head>
 	<body>
 		<header>
@@ -18,6 +23,9 @@
 					<li><a href="#">Accueil</a></li>
 					<li>
 						Catégorie
+						<label for="categories" style="display: none"
+							>Les catégorie</label
+						>
 						<select name="categories" id="categories">
 							<option value="all">-</option>
 							<option value="work">Travail</option>
@@ -31,7 +39,7 @@
 		</header>
 		<main>
 			<section class="addTodo">
-				<h2>Todo</h2>
+				<h1>Todo</h1>
 				<form>
 					<div>
 						<label for="todo">Ajouter une tâche</label>
@@ -58,17 +66,16 @@
 						<h2>À propos</h2>
 						<button id="closePopup">X</button>
 					</div>
-					<p>
-						Nous avons créé 3 catégories de todos : 
-                        <ul>
-                            <li>Travail</li>
-                            <li>Personnel</li>
-                            <li>Autre</li>
-                        </ul>
-						Vous pouvez les filtrer en cliquant
-						sur la catégorie de votre choix dans le menu de
-						navigation.
-					</p>
+					<div>
+						Nous avons créé 3 catégories de todos :
+						<ul>
+							<li>Travail</li>
+							<li>Personnel</li>
+							<li>Autre</li>
+						</ul>
+						Vous pouvez les filtrer en cliquant sur la catégorie de
+						votre choix dans le menu de navigation.
+					</div>
 
 					<div class="work aboutExemple">
 						Ceci est un exemple d'une tâche de
@@ -84,7 +91,10 @@
 				</div>
 			</div>
 		</main>
-		<footer>Fait avec ❤️ par <a href="#">GorskiAnthony</a></footer>
+		<footer>
+			Fait avec ❤️ par
+			<a href="https://github.com/GorskiAnthony">GorskiAnthony</a>
+		</footer>
 
 		<script src="./assets/script.js"></script>
 		<script src="./assets/popup.js"></script>
