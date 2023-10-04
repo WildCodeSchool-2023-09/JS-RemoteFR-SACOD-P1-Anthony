@@ -12,6 +12,7 @@
 
 body {
 	font-family: "Roboto", sans-serif;
+	color: var(--dark);
 }
 
 /** NAVBAR **/
@@ -20,6 +21,7 @@ nav {
 	display: flex;
 	justify-content: space-around;
 	padding: 5px 0;
+	font-size: 1.2rem;
 }
 
 nav ul {
