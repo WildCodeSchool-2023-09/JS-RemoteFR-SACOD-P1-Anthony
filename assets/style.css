@@ -45,3 +45,46 @@ a {
 a:hover {
 	color: var(--primary-color);
 }
+
+/** MAIN **/
+
+main {
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+/** Form **/
+
+label {
+	font-weight: 600;
+}
+
+form {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding-top: 20px;
+}
+
+form input[type="text"] {
+	padding: 5px;
+	border: 1px solid var(--dark);
+	border-radius: 5px;
+}
+
+form select {
+	padding: 5px;
+	border: 1px solid var(--dark);
+	border-radius: 5px;
+}
+
+form button {
+	padding: 5px 10px;
+	border: 1px solid var(--dark);
+	border-radius: 5px;
+	background-color: var(--primary-color);
+	color: #fff;
+	cursor: pointer;
+}

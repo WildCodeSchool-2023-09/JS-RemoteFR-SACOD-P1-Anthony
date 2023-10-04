@@ -25,6 +25,30 @@
 				</ul>
 			</nav>
 		</header>
+		<main>
+			<section class="addTodo">
+				<h1>Todo</h1>
+				<form>
+					<div>
+						<label for="todo">Ajouter une tâche</label>
+						<input type="text" name="todo" id="todo" />
+					</div>
+					<div>
+						<label for="category">Catégorie</label>
+						<select name="category" id="category">
+							<option value="work">Travail</option>
+							<option value="personnal">Personnel</option>
+							<option value="other">Autre</option>
+						</select>
+					</div>
+					<button type="submit">Ajouter une tâche</button>
+				</form>
+			</section>
+			<section class="container">
+				<ul class="allTodos"></ul>
+			</section>
+		</main>
+
 		<script src="./assets/script.js"></script>
 	</body>
 </html>
