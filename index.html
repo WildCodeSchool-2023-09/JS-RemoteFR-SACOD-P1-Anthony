@@ -45,20 +45,44 @@
 							<option value="other">Autre</option>
 						</select>
 					</div>
-					<button type="submit">Ajouter une tâche</button>
+					<button type="submit">l'ajouter à la liste !</button>
 				</form>
 			</section>
 			<section class="container">
 				<h2>Toutes mes todos</h2>
 				<ul class="allTodos"></ul>
 			</section>
-			<section id="popup" class="hidden">
-				<div>
+			<div id="popup" class="hidden">
+				<div class="popupContainer">
+					<div>
+						<h2>À propos</h2>
+						<button id="closePopup">X</button>
+					</div>
 					<p>
-						Tout contenu que vous voulez montrer aux utilisateurs.
+						Nous avons créé 3 catégories de todos : 
+                        <ul>
+                            <li>Travail</li>
+                            <li>Personnel</li>
+                            <li>Autre</li>
+                        </ul>
+						Vous pouvez les filtrer en cliquant
+						sur la catégorie de votre choix dans le menu de
+						navigation.
 					</p>
+
+					<div class="work aboutExemple">
+						Ceci est un exemple d'une tâche de
+						<strong>travail</strong>
+					</div>
+					<div class="personnal aboutExemple">
+						Ceci est un exemple d'une tâche
+						<strong>personnelle</strong>
+					</div>
+					<div class="other aboutExemple">
+						Ceci est un exemple d'une tâche <strong>autre</strong>
+					</div>
 				</div>
-			</section>
+			</div>
 		</main>
 		<footer>Fait avec ❤️ par <a href="#">GorskiAnthony</a></footer>
 

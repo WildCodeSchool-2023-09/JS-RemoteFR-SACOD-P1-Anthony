@@ -80,7 +80,7 @@ function displayOnLoad(todo) {
 function createTodo(todo, category) {
 	const newTodo = document.createElement("li");
 	newTodo.classList.add("wip");
-	newTodo.classList.add(todo.category);
+	newTodo.classList.add(category.value);
 
 	// si le champ est vide, je ne fais rien
 	if (todo.value === "") return;
