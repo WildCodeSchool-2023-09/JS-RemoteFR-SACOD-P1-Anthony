@@ -1,4 +1,6 @@
 /** VARIABLES **/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+
 :root {
 	--primary-color: #f44336;
 	--dark: #333;
@@ -11,7 +13,7 @@
 }
 
 body {
-	font-family: "Roboto", sans-serif;
+	font-family: "Montserrat", sans-serif;
 	color: var(--dark);
 }
 
@@ -37,6 +39,7 @@ nav ul li {
 a {
 	text-decoration: none;
 	color: var(--dark);
+	cursor: pointer;
 }
 
 a:hover {
