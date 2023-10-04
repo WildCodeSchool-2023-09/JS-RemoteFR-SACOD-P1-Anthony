@@ -27,6 +27,7 @@ function displayOnLoad(todo) {
 	// Je créer un li
 	const newTodo = document.createElement("li");
 	newTodo.classList.add("wip");
+	newTodo.classList.add(todo.category);
 	const span = document.createElement("span");
 	span.textContent = todo.text;
 	newTodo.appendChild(span);
@@ -79,6 +80,7 @@ function displayOnLoad(todo) {
 function createTodo(todo, category) {
 	const newTodo = document.createElement("li");
 	newTodo.classList.add("wip");
+	newTodo.classList.add(todo.category);
 
 	// si le champ est vide, je ne fais rien
 	if (todo.value === "") return;

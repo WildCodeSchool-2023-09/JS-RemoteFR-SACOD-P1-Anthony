@@ -156,3 +156,17 @@ li {
 	align-self: center;
 	padding-left: 1rem;
 }
+
+/** Style selon le theme **/
+
+.work {
+	border: #ffa400 1px solid;
+}
+
+.personnal {
+	border: #009ffd 1px solid;
+}
+
+.other {
+	border: #2a2a72 1px solid;
+}
