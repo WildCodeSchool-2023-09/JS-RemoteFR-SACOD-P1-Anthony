@@ -1,0 +1,42 @@
+/** VARIABLES **/
+:root {
+	--primary-color: #f44336;
+	--dark: #333;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+/** NAVBAR **/
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	padding: 5px 0;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	align-items: center;
+}
+
+nav ul li {
+	margin: 0 10px;
+}
+
+a {
+	text-decoration: none;
+	color: var(--dark);
+}
+
+a:hover {
+	color: var(--primary-color);
+}
